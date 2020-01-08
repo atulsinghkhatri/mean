@@ -4,7 +4,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.get('/:name?', (req, res) => { 
 	// For GET Request 
-	console.log(req.query);
+	console.log(req.query); 
 	// For Paramaterized Request 
 	//console.log(req.params.name);
 	// For POST Request 
